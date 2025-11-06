@@ -1,5 +1,3 @@
-// --- Module Imports ---
-// Essential libraries and modules for the project's functionality.
 require('dotenv').config(); // Loads environment variables (like API keys) from a .env file.
 const { recognize } = require('tesseract.js'); // Tesseract.js for Optical Character Recognition (OCR).
 const fs = require("fs"); // Node.js File System module for file operations.
