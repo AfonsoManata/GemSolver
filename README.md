@@ -6,7 +6,8 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" target="_blank">
-    
+    <img src="https://img.youtube.com/vi/17AD3QISHU4/hqdefault.jpg" 
+         alt="GemSolver Demo Video" width="600">
   </a>
 </p>
 
