@@ -1,4 +1,4 @@
-# GemSolver: The AI Screen Assistant
+# GemSolver
 
 ## Project Overview
 
