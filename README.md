@@ -12,7 +12,6 @@
 </p>
 
 *Click the image to watch the demo.*
-
 ## Core Functionalities
 
 * **Automatic Capture and Analysis:** Monitors a designated screenshots directory (e.g., the default "Screenshots" folder) and processes the most recent image automatically.
