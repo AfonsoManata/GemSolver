@@ -1,75 +1,68 @@
-# 🚀 GemSolver: The AI Screen Assistant ✨
+# GemSolver: The AI Screen Assistant
 
+## Project Overview
 
-
-## Project Overview 💡
-
-
-**See GemSolver in action:** Discover how this tool seamlessly extracts information from challenging sources and provides instant, intelligent answers.
+**GemSolver** is a powerful AI assistant that extracts text from images and provides intelligent, instant responses. It seamlessly handles content from sources that prevent traditional copy-pasting, making information retrieval faster and more efficient.
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" target="_blank">
-    <img src="https://img.youtube.com/vi/17AD3QISHU4/hqdefault.jpg" 
-         alt="GemSolver Demo Video"
-         width="600">
+    <img src="https://i.imgur.com/8YxVfXy.png" alt="GemSolver Demo Video" width="600">
   </a>
 </p>
 
-*(Click the image to watch the video)* ▶️
+*Click the image to watch the demo.*
 
-## Core Functionalities 🌟
+> **Note:** The thumbnail includes a “play button overlay” to mimic a YouTube preview for better visual appeal.
 
-* **Automatic Capture and Analysis:** GemSolver monitors a designated screenshots directory (e.g., default "Screenshots" folder 📸) and automatically processes the most recent image.
-* **Precise Text Extraction (OCR):** It leverages `tesseract.js` to convert image-based text into digital format, ensuring high accuracy in content extraction. This is **critical for extracting text from sources that prevent traditional copy-pasting** ✂️, such as protected web pages or text embedded in images.
-* **Intelligent Response Generation with Gemini AI:** GemSolver sends the extracted text to Google's `gemini-2.0-flash` model, yielding concise and direct answers.
-* **Automatic Clipboard Copy:** The Gemini-generated response is automatically copied to the system clipboard (`clipboardy`), allowing for instant pasting into any application. 🚀
-* **Automation and Optimization:** It eliminates the need for manual text copying and question formulation, streamlining tasks and boosting productivity. ✅
+## Core Functionalities
 
+* **Automatic Capture and Analysis:** Monitors a designated screenshots directory (e.g., the default "Screenshots" folder) and processes the most recent image automatically.
+* **Text Extraction (OCR):** Uses `tesseract.js` to convert image-based text into digital format, ensuring high accuracy. Ideal for protected content where standard copy-paste fails.
+* **Intelligent Response Generation:** Sends extracted text to Google’s `gemini-2.0-flash` model to generate concise, actionable answers.
+* **Clipboard Automation:** Automatically copies AI-generated responses to the system clipboard for instant use.
+* **Task Automation:** Reduces manual effort, streamlining information retrieval and boosting productivity.
 
-## Technologies Utilized 🛠️
+## Technologies
 
-This project demonstrates proficiency and familiarity with a modern and relevant tech stack for AI and automation solutions development:
+* **Node.js:** Backend runtime environment.  
+* **Google Gemini API (`@google/generative-ai`):** Access to state-of-the-art language models.  
+* **Tesseract.js:** Optical Character Recognition for extracting text from images.  
+* **dotenv:** Secure management of environment variables, including API keys.  
+* **fs & path:** File system manipulation and directory management.  
+* **clipboardy:** Clipboard integration for automated copy-pasting.
 
-* **Node.js:** JavaScript runtime environment for the backend. 🟢
-* **Google Gemini API (`@google/generative-ai`):** Direct access to Google's cutting-edge AI models for natural language processing. 🤖
-* **Tesseract.js:** JavaScript library for Optical Character Recognition (OCR), ensuring robust text extraction from images. 📄➡️💻
-* **`dotenv`:** For secure management of environment variables (e.g., API keys). 🔑
-* **`fs` (File System) & `path`:** Native Node.js modules for file and directory manipulation. 📂
-* **`clipboardy`:** For programmatic interaction with the system clipboard. 📋
+## Potential Use Cases
 
+* **Bypass Copy Restrictions:** Extract text from sources that block traditional copy-paste.  
+* **Students:** Quickly get answers from textbooks, slides, or exams in image form.  
+* **Professionals:** Analyze reports, invoices, or charts where text isn’t selectable.  
+* **Developers & Support:** Copy error messages or code snippets from images for fast solutions.  
+* **General Users:** Automate information retrieval from any visual content.
 
-## Potential Use Cases 🎯
+## Getting Started
 
-* **Bypassing Copy Restrictions:** Easily extract text from websites or documents that block standard copy-paste functionalities. 🔓
-* **Students:** Get quick answers to questions from textbooks, tests, or slides that might be image-based. 📚❓
-* **Professionals:** Extract information from reports, invoices, or charts and get instant analysis, even when the content isn't selectable. 📊
-* **Developers/Technical Support:** Copy error messages or code snippets from images and receive solutions or explanations. 🐛💡
-* **General Users:** Automate information retrieval from any visual content on their screen. 🧑‍💻
+Follow these steps to run GemSolver locally:
 
-
-## Getting Started 🚀
-
-To run GemSolver locally, follow these steps:
-
-1.  **Clone the repository:**
+1. **Clone the repository:**
     ```bash
     git clone [YOUR_REPOSITORY_LINK]
     cd [YOUR_REPOSITORY_NAME]
     ```
-2.  **Install dependencies:**
+2. **Install dependencies:**
     ```bash
     npm install
     ```
-3.  **Configure your Google Gemini API key:**
-    Create a `.env` file in the project root with the following content:
+3. **Configure Google Gemini API key:**
+    Create a `.env` file in the project root:
     ```
     API_KEY="YOUR_GEMINI_API_KEY"
     ```
-    Obtain your API key from [Google AI Studio](https://aistudio.google.com/). 🔑
-4.  **Run the assistant:**
+    Obtain your API key from [Google AI Studio](https://aistudio.google.com/).
+4. **Run GemSolver:**
     ```bash
     node app.js
     ```
 
+---
 
-
+**GemSolver** streamlines text extraction and AI-based analysis from images, enabling fast, efficient workflows for students, professionals, and developers alike.
