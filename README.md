@@ -6,13 +6,12 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" target="_blank">
-    <img src="https://i.imgur.com/8YxVfXy.png" alt="GemSolver Demo Video" width="600">
+    <img src="https://img.youtube.com/vi/17AD3QISHU4/hqdefault.jpg" 
+         alt="GemSolver Demo Video" width="600">
   </a>
 </p>
 
 *Click the image to watch the demo.*
-
-> **Note:** The thumbnail includes a “play button overlay” to mimic a YouTube preview for better visual appeal.
 
 ## Core Functionalities
 
