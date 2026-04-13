@@ -4,14 +4,6 @@
 
 **GemSolver** is a powerful AI assistant that extracts text from images and provides intelligent, instant responses. It seamlessly handles content from sources that prevent traditional copy-pasting, making information retrieval faster and more efficient.
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" target="_blank">
-    <img src="https://img.youtube.com/vi/17AD3QISHU4/hqdefault.jpg" 
-         alt="GemSolver Demo Video" width="600">
-  </a>
-</p>
-
-*Click the image to watch the demo.*
 ## Core Functionalities
 
 * **Automatic Capture and Analysis:** Monitors a designated screenshots directory (e.g., the default "Screenshots" folder) and processes the most recent image automatically.
